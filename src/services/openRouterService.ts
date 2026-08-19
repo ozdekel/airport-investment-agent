@@ -39,7 +39,7 @@ CRITICAL RULES:
           'X-Title': 'Airport Investment Agent'
         },
         body: JSON.stringify({
-          model: 'google/gemini-2.5-pro', // Using Gemini via OpenRouter
+          model: 'openrouter/free', // Using Gemini via OpenRouter
           messages: [
             { role: 'system', content: systemPrompt },
             { role: 'user', content: userPrompt }
