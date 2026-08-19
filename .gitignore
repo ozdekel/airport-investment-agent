@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# tests
+/.test-build/
+
+# staged for deletion by the user
+/_to_delete/
