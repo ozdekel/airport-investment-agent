@@ -1,6 +1,6 @@
 // src/services/aviationService.ts
 
-import { Airport, AirportMetrics } from '@/types';
+import { Airport, AirportMetrics } from '../types';
 
 // Fallback Mock Data: Ensures the application remains functional for demos/interviews 
 // even if the external aviation API is down or rate-limited.
